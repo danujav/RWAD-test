@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_HTML_BASIC/01_HTML_BASIC.iml" filepath="$PROJECT_DIR$/01_HTML_BASIC/01_HTML_BASIC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_CSS_Basic/02_CSS_Basic.iml" filepath="$PROJECT_DIR$/02_CSS_Basic/02_CSS_Basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_CSS_Traversing/03_CSS_Traversing.iml" filepath="$PROJECT_DIR$/03_CSS_Traversing/03_CSS_Traversing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_CSS_Traversing/04_CSS_Cascade.iml" filepath="$PROJECT_DIR$/03_CSS_Traversing/04_CSS_Cascade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_CSS_Cascading/04_CSS_Cascading.iml" filepath="$PROJECT_DIR$/04_CSS_Cascading/04_CSS_Cascading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_CSS_Units/05_CSS_Units.iml" filepath="$PROJECT_DIR$/05_CSS_Units/05_CSS_Units.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_CSS_Inheritance/06_CSS_Inheritance.iml" filepath="$PROJECT_DIR$/06_CSS_Inheritance/06_CSS_Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_CSS_BOX_Model/07_CSS_BOX_Model.iml" filepath="$PROJECT_DIR$/07_CSS_BOX_Model/07_CSS_BOX_Model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_CSS_Layouts/08_CSS_Layouts.iml" filepath="$PROJECT_DIR$/08_CSS_Layouts/08_CSS_Layouts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_CSS_New_Layouts/09_CSS_New_Layouts.iml" filepath="$PROJECT_DIR$/09_CSS_New_Layouts/09_CSS_New_Layouts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_CSS_Transition/10_CSS_Transition.iml" filepath="$PROJECT_DIR$/10_CSS_Transition/10_CSS_Transition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_CSS_Animation/11_CSS_Animation.iml" filepath="$PROJECT_DIR$/11_CSS_Animation/11_CSS_Animation.iml" />
+    </modules>
+  </component>
+</project>

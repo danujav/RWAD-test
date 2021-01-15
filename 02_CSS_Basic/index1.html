@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Rules</title>
+    <style>
+        /*type selector*/
+        /*h1 {*/
+        /*    color: green;*/
+        /*}*/
+
+        /*p {*/
+        /*    color: orange;*/
+        /*}*/
+
+
+        /*id selector*/
+        /*       #second{
+                   color: red;
+               }
+       */
+
+        /*class selector*/
+        /*       .selected {
+                   color: orange;
+                   border: 1px solid green;
+               }
+
+               .a{
+                   color: red;
+               }
+       */
+
+        /*universal selector*/
+        /*  * {
+              color: red;
+          }
+  */
+
+        /*attribute selector*/
+        /*        [id='first'] {
+                    background: green;
+                }*/
+
+
+        /*css selectors*/
+
+        /*Basic selectors*/
+        /*1.universal selector*/
+        /*2.type selector*/
+        /*3.class selector*/
+        /*4.id selector*/
+        /*5.attribute selector*/
+
+
+        /*Psudo Selectors*/
+        /*1.Pusdo Class*/
+        /*2. Psudo Element*/
+
+
+        /*Psudo Classses*/
+        /*       h1:hover {
+                   color: red;
+                   font-size: 100px;
+               }
+
+               li:first-child{
+                   color:green;
+               }
+
+               li:last-child{
+                   color: red;
+               }
+
+               li:nth-child(3){
+                   background: green;
+                   color: white;
+               }*/
+
+
+        /*Psudo element*/
+        /*h1::first-letter{*/
+        /*    font-size: 100px;*/
+        /*    color: red;*/
+        /*}*/
+        /*p::first-line{*/
+        /*    font-size: 80px;*/
+        /*    color: orange;*/
+        /*}*/
+
+        /*p::selection{*/
+        /*    background: red;*/
+        /*    color: white;*/
+        /*}*/
+
+        /*input::placeholder{*/
+        /*    color: green;*/
+
+        /*}*/
+
+        /*h2::before{*/
+        /*    content: "A ";*/
+        /*}*/
+        /*h2::after{*/
+        /*    content: " B";*/
+        /*}*/
+
+
+        /*selection grouping*/
+        /*#first,h1,p{*/
+        /*    color: orange;*/
+        /*}*/
+
+
+        /*CSS Combinators - for combining different selectors and select */
+        /*1.Descendent Combinator*/
+        /*2.Child Combinator*/
+        /*3 Adjacent Combinator*/
+        /*4.General Sibling combinator*/
+
+
+        /*01 Descendent Combinator*/
+        /*select  if p is a child of the section*/
+        /*  section p {
+              color: red;
+              font-size: 20px;
+          }*/
+
+        /*02 Child Combinator*/
+        /*check if p is a direct child of section*/
+        /*
+                section>p{
+                    background: green;
+                }
+
+                section>div>div>p{
+                    background: orange;
+                }
+        */
+
+        /*03.Adjacent Combinator*/
+        /*select h2 if h2 is just after h1 (select only one)*/
+        /*h1 + h2 {*/
+        /*    color: red;*/
+        /*}*/
+
+        /*section+ul{*/
+        /*    color:green;*/
+        /*}*/
+
+
+        /*04. General Siblings Combinator*/
+        /*select h2 if h2 is just after a h1.. select all h2's after h1 if it is in the*/
+        /*same root*/
+        h1 ~ h2 {
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+<input placeholder="Customer ID" type="text">
+<h2>Hello im a H2</h2>
+<h1>Cascade Style Sheet</h1>
+<h2 id="first">CSS selectors H2</h2>
+<h2 id="second">CSS selectors H2</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, cumque facere. Aliquid asperiores blanditiis corporis
+    dolor fugiat in iure iusto labore laudantium minima, molestiae neque praesentium quia quisquam sint temporibus.</p>
+<section>
+    <h2>Hello im also a H2</h2>
+    <p>Hello there how are you... fine</p>
+    <p>Hello there how are you... fine</p>
+    <p>Hello there how are you... fine</p>
+    <div>
+        <div>
+            <p>hello there how are you</p>
+        </div>
+    </div>
+    <ul>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ul>
+    <ol>
+        <li>Test One</li>
+        <li>Test Two</li>
+        <li>Test Three</li>
+    </ol>
+</section>
+<ul>
+    <li>List One</li>
+    <li>List Two</li>
+    <li>List Three</li>
+    <li>List Four</li>
+</ul>
+<p class="selected">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias cum, iste? Doloremque dolores et ex
+    excepturi laborum
+    magnam nobis nulla, quibusdam saepe unde! Autem ea magnam quis quo tempore voluptas.</p>
+<p class="a">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consectetur consequuntur doloribus
+    exercitationem,
+    fuga ipsa nostrum obcaecati placeat quam ratione suscipit ullam voluptatibus! A ab consequuntur dolore, dolorem
+    fugit magni.</p>
+<h2>CSS selectors H2</h2>
+<p class="selected">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consectetur consequuntur doloribus
+    exercitationem,
+    fuga ipsa nostrum obcaecati placeat quam ratione suscipit ullam voluptatibus! A ab consequuntur dolore, dolorem
+    fugit magni.</p>
+<p class="a" id="test2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consectetur consequuntur
+    doloribus
+    exercitationem,
+    fuga ipsa nostrum obcaecati placeat quam ratione suscipit ullam voluptatibus! A ab consequuntur dolore, dolorem
+    fugit magni.</p>
+<p class="selected">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consectetur consequuntur doloribus
+    exercitationem,
+    fuga ipsa nostrum obcaecati placeat quam ratione suscipit ullam voluptatibus! A ab consequuntur dolore, dolorem
+    fugit magni.</p>
+<p class="a">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consectetur consequuntur doloribus
+    exercitationem,
+    fuga ipsa nostrum obcaecati placeat quam ratione suscipit ullam voluptatibus! A ab consequuntur dolore, dolorem
+    fugit magni.</p>
+<p id="test">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci cumque dicta dolor esse exercitationem
+    expedita
+    facere, hic ipsam labore modi molestiae numquam porro quas quis sapiente sequi sunt voluptatum!</p>
+<h2>Hello</h2>
+
+
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cascading 3</title>
+    <style>
+
+        /*inline styles=1000*/
+        /*id= 100*/
+        /*class,psudo-class,attribute =10*/
+        /*type selector,psudo elements =1*/
+
+        /*inline 1000*/
+
+        /*1+10+100+100 =211*/
+        body.bclass#bid #h1id {
+            color: green;
+        }
+
+        /*1+10+100+100+10=221*/
+        body.bclass#bid #h1id.h1class {
+            color: blue;
+        }
+
+        /*1+10 =12*/
+        body.bclass h1{
+            color: deeppink;
+        }
+
+        /*10*/
+        [id] {
+            color: #1bd05d;
+        }
+
+        /*1+1+10+100=112*/
+        body h1.h1class#h1id {
+            color: aqua;
+        }
+
+        /*1+10+100+ 1+10+100+ 1+10+100+ 1+10+100 = 444*/
+        body.bclass#bid > section.sectionClass#sectionid > div.divClass#divid > h1.h1class#h1id {
+            color: #08d1ff;
+        }
+
+
+        /*     01.444 - color: #08d1ff;
+               02. 221 -   color: blue;
+               03. 211 - color: green;
+               04. 112 -   color: aqua;
+               05. 12 -  color: deeppink;
+               06. 10 -  color: #1bd05d;
+              */
+
+
+    </style>
+</head>
+<body class="bclass" id="bid">
+<section class="sectionClass" id="sectionid">
+    <div class="divClass" id="divid">
+        <h1 class="h1class" id="h1id" style="color: darkviolet">Cascading Style Sheet</h1>
+    </div>
+</section>
+
+</body>
+</html>

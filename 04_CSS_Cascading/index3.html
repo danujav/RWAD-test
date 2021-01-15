@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cascading 3</title>
+    <style>
+
+        /*inline styles=1000*/
+        /*id= 100*/
+        /*class,psudo-class,attribute =10*/
+        /*type selector,psudo elements =1*/
+
+        /*inline 1000*/
+
+        /*1 +100 =101*/
+        body #h1id {
+            color: orange;
+        }
+
+        /*100*/
+        #h1id {
+            color: olive;
+        }
+
+        /*1+10 =11        */
+        body .h1class {
+            color: #1bd05d;
+        }
+
+        /*10*/
+        .h1class {
+            color: deeppink;
+        }
+
+        /*1+1 =2*/
+        body h1 {
+            color: red;
+        }
+
+        /*1*/
+        h1 {
+            color: #09a9ff;
+        }
+
+        /*10*/
+        [id] {
+            color: coral;
+        }
+
+        /*1+10=11*/
+        h1[id] {
+            color: blue;
+        }
+
+        /*1+ 10 =11*/
+        h1:first-child {
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+<h1 class="h1class" style="color: darkviolet" id="h1id">Cascading Style Sheet</h1>
+</body>
+</html>

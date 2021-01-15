@@ -1,0 +1,174 @@
+<!--/**
+* @author : Sanu Vithanage
+* @since : 0.0.1
+**/-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Positions</title>
+    <link href="assests/css/normalize.css" rel="stylesheet">
+    <style>
+        body > section {
+            width: 50vw;
+            height: 50vh;
+            position: absolute;
+        }
+
+        body > section:nth-child(1) {
+            background: red;
+            left: 0;
+            top: 0;
+        }
+
+        body > section:nth-child(2) {
+            background: green;
+            right: 0;
+            top: 0;
+        }
+
+        body > section:nth-child(3) {
+            background: #f69b10;
+            left: 0;
+            bottom: 0;
+        }
+
+        body > section:nth-child(4) {
+            background: deeppink;
+            right: 0;
+            bottom: 0;
+        }
+
+        body > aside {
+            width: 140px;
+            height: 140px;
+            background: white;
+            position: absolute;
+        }
+
+        body > aside:nth-child(5) {
+            left: 0;
+            top: 0;
+            border-bottom-right-radius: 100%;
+        }
+
+        body > aside:nth-child(6) {
+            right: 0;
+            top: 0;
+            border-bottom-left-radius: 100%;
+        }
+
+        body > aside:nth-child(7) {
+            left: 0;
+            bottom: 0;
+            border-top-right-radius: 100%;
+        }
+
+        body > aside:nth-child(8) {
+            right: 0;
+            bottom: 0;
+            border-top-left-radius: 100%;
+        }
+
+        body > article {
+            width: 190px;
+            height: 190px;
+            background: white;
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        body > div {
+            width: 193px;
+            height: 95px;
+            background: white;
+            position: absolute;
+        }
+
+        body > div:nth-child(10) {
+            left: 0;
+            right: 0;
+            margin: auto;
+            border-bottom-right-radius: 120px;
+            border-bottom-left-radius: 120px;
+        }
+
+        body > div:nth-child(11) {
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            border-top-right-radius: 120px;
+            border-top-left-radius: 120px;
+        }
+
+        section > div {
+            width: 175px;
+            height: 175px;
+            background: white;
+            border-radius: 100%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        section > div > div {
+            width: 100px;
+            height: 100px;
+            background: red;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        article > div {
+            width: 100px;
+            height: 100px;
+            background: red;
+            position: absolute;
+            border-radius: 100%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+    </style>
+</head>
+<body>
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+<section>
+    <div>
+        <div></div>
+    </div>
+</section>
+<aside></aside>
+<aside></aside>
+<aside></aside>
+<aside></aside>
+<article>
+    <div></div>
+</article>
+<div></div>
+<div></div>
+</body>
+</html>

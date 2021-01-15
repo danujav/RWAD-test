@@ -1,0 +1,65 @@
+<!--/**-->
+<!--* @author : Sanu Vithanage-->
+<!--* @since : 0.0.1-->
+<!--**/-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Circle Transition</title>
+    <link href="assests/css/normalize.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, blue, lightseagreen);
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        section {
+            width: 300px;
+            height: 300px;
+            background: #6c6c6c;
+            border: 14px solid white;
+            border-radius: 100%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            border-top: 14px solid crimson;
+            cursor: pointer;
+        }
+
+        section:hover {
+            transform: rotate(360deg);
+            transition: all 2s;
+        }
+
+        section:hover h1 {
+            transform: rotate(-360deg);
+            transition: all 2s;
+        }
+
+        section > h1 {
+            color: white;
+            width: max-content;
+            height: max-content;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            font-family: "Ubuntu Medium";
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div></div>
+    <h1>RWAD</h1>
+</section>
+</body>
+</html>

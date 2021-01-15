@@ -1,0 +1,57 @@
+<!--/**-->
+<!--* @author : Sanu Vithanage-->
+<!--* @since : 0.0.1-->
+<!--**/-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation 2</title>
+    <link href="assests/css/normalize.css" rel="stylesheet">
+    <style>
+        div {
+            width: 180px;
+            height: 80px;
+            background: red;
+            border-radius: 30px;
+            animation-name: rotateme;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            /*animation-delay: 2s;*/
+            animation-play-state: running;
+        }
+
+        @keyframes rotateme {
+            0% {
+                margin: 0 0 0 0;
+                transform: rotate(0deg);
+                background: red;
+            }
+            25% {
+                margin: 0 0 0 400px;
+                transform: rotate(180deg);
+                background: green;
+            }
+            50% {
+                margin: 300px 0 0 400px;
+                transform: rotate(360deg);
+                background: orangered;
+            }
+            75% {
+                margin: 300px 0 0 0;
+                transform: rotate(180deg);
+                background: purple;
+            }
+            100% {
+                margin: 0 0 0 0;
+                transform: rotate(0deg);
+                background: red;
+            }
+        }
+    </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>

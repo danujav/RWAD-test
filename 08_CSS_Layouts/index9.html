@@ -1,0 +1,56 @@
+<!--/**
+* @author : Sanu Vithanage
+* @since : 0.0.1
+**/-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sticky Position</title>
+    <link href="assests/css/normalize.css" rel="stylesheet">
+    <style>
+        body > section {
+            height: 100vh;
+            border: 2px solid red;
+        }
+
+        body > div {
+            height: 100px;
+            width: 200px;
+            background: rgba(114, 101, 101, 0.9);
+            color: white;
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            font-weight: bolder;
+            text-align: center;
+        }
+        body>div:hover{
+            background: red;
+        }
+
+        section>div{
+            width: 200px;
+            height: 100px;
+            background: linear-gradient(to right,red,orange);
+            position: sticky;
+            top: 10px;
+            left: 10px;
+            color: white;
+            font-weight: bolder;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div>
+    Fixed Position
+</div>
+<section>
+    <div>Sticky Position</div>
+    <h1>Hello</h1>
+    <h1>Sticky Position</h1>
+</section>
+<section></section>
+</body>
+</html>

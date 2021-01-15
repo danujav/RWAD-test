@@ -1,0 +1,233 @@
+<!--/**-->
+<!--* @author : Sanu Vithanage-->
+<!--* @since : 0.0.1-->
+<!--**/-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Layout</title>
+    <link href="assests/css/normalize.css" rel="stylesheet">
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="assests/fonts/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Ubuntu', sans-serif;
+            color: #554c4c;
+        }
+
+        header {
+            height: 90px;
+            background: white;
+            box-shadow: 1px 2px 7px 4px #bfa0a0d6;
+            position: relative;
+        }
+
+        header > img {
+            padding: 10px;
+            width: 245px;
+        }
+
+        header > ul {
+            position: absolute;
+            right: 24px;
+            font-size: 20px;
+            top: 0;
+            list-style: none;
+        }
+
+        header > ul > li {
+            display: inline-block;
+            padding: 10px;
+            cursor: pointer;
+            font-weight: bold
+        }
+
+        header > ul > li > i {
+            color: #ef1111;
+            margin-right: 5px;
+        }
+
+        body > footer {
+            height: 50px;
+            background: #423c3c;
+        }
+
+        footer > h3 {
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0;
+        }
+
+        main {
+            position: relative;
+        }
+
+        main > nav {
+            width: 300px;
+            background: #0c1470;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+        }
+
+        main > nav > ul {
+            list-style: none;
+        }
+
+        main > nav > ul > li {
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        main > nav > ul > li > i {
+            color: white;
+            padding-right: 10px;
+        }
+
+        main > section {
+            margin-left: 300px;
+            padding: 10px;
+        }
+
+        p::selection {
+            background: red;
+            color: white;
+        }
+
+        main > section > section {
+            position: relative;
+            height: 350px;
+        }
+
+        main > section > section > div {
+            height: 100%;
+            width: calc((100% / 3) * 1);
+            position: absolute;
+            border: 1px dashed black;
+        }
+
+        main > section > section > div:nth-child(1) {
+            left: 0;
+            background: url("assests/img/gif.gif");
+            background-size: cover;
+            background-position: center;
+        }
+
+        main > section > section > div:nth-child(2) {
+            left: calc((100% / 3) * 1);
+            background: url("assests/img/gif.gif");
+            background-size: cover;
+            background-position: center;
+        }
+
+        main > section > section > div:nth-child(3) {
+            left: calc((100% / 3) * 2);
+            background: url("assests/img/gif.gif");
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img alt="Logo" src="assests/img/ijse.png">
+    <ul>
+        <li><i class="fas fa-home"></i>Home</li>
+        <li><i class="fas fa-server"></i>Service</li>
+        <li><i class="fas fa-users"></i>Contacts</li>
+        <li><i class="fas fa-address-card"></i>AboutUs</li>
+    </ul>
+</header>
+
+<main>
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i>Home</li>
+            <li><i class="fas fa-server"></i>Service</li>
+            <li><i class="fas fa-users"></i>Contacts</li>
+            <li><i class="fas fa-address-card"></i>AboutUs</li>
+        </ul>
+    </nav>
+    <section>
+        <section>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid architecto atque autem corporis
+            est illum in, laboriosam laborum minima nihil odio optio, perspiciatis praesentium quae quia, tempora veniam
+            voluptas!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid architecto atque autem corporis
+            est illum in, laboriosam laborum minima nihil odio optio, perspiciatis praesentium quae quia, tempora veniam
+            voluptas!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid architecto atque autem corporis
+            est illum in, laboriosam laborum minima nihil odio optio, perspiciatis praesentium quae quia, tempora veniam
+            voluptas!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid architecto atque autem corporis
+            est illum in, laboriosam laborum minima nihil odio optio, perspiciatis praesentium quae quia, tempora veniam
+            voluptas!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid architecto atque autem corporis
+            est illum in, laboriosam laborum minima nihil odio optio, perspiciatis praesentium quae quia, tempora veniam
+            voluptas!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid architecto atque autem corporis
+            est illum in, laboriosam laborum minima nihil odio optio, perspiciatis praesentium quae quia, tempora veniam
+            voluptas!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid architecto atque autem corporis
+            est illum in, laboriosam laborum minima nihil odio optio, perspiciatis praesentium quae quia, tempora veniam
+            voluptas!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid architecto atque autem corporis
+            est illum in, laboriosam laborum minima nihil odio optio, perspiciatis praesentium quae quia, tempora veniam
+            voluptas!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid architecto atque autem corporis
+            est illum in, laboriosam laborum minima nihil odio optio, perspiciatis praesentium quae quia, tempora veniam
+            voluptas!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid architecto atque autem corporis
+            est illum in, laboriosam laborum minima nihil odio optio, perspiciatis praesentium quae quia, tempora veniam
+            voluptas!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid architecto atque autem corporis
+            est illum in, laboriosam laborum minima nihil odio optio, perspiciatis praesentium quae quia, tempora veniam
+            voluptas!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid architecto atque autem corporis
+            est illum in, laboriosam laborum minima nihil odio optio, perspiciatis praesentium quae quia, tempora veniam
+            voluptas!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid architecto atque autem corporis
+            est illum in, laboriosam laborum minima nihil odio optio, perspiciatis praesentium quae quia, tempora veniam
+            voluptas!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid architecto atque autem corporis
+            est illum in, laboriosam laborum minima nihil odio optio, perspiciatis praesentium quae quia, tempora veniam
+            voluptas!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid architecto atque autem corporis
+            est illum in, laboriosam laborum minima nihil odio optio, perspiciatis praesentium quae quia, tempora veniam
+            voluptas!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid architecto atque autem corporis
+            est illum in, laboriosam laborum minima nihil odio optio, perspiciatis praesentium quae quia, tempora veniam
+            voluptas!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid architecto atque autem corporis
+            est illum in, laboriosam laborum minima nihil odio optio, perspiciatis praesentium quae quia, tempora veniam
+            voluptas!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid architecto atque autem corporis
+            est illum in, laboriosam laborum minima nihil odio optio, perspiciatis praesentium quae quia, tempora veniam
+            voluptas!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid architecto atque autem corporis
+            est illum in, laboriosam laborum minima nihil odio optio, perspiciatis praesentium quae quia, tempora veniam
+            voluptas!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid architecto atque autem corporis
+            est illum in, laboriosam laborum minima nihil odio optio, perspiciatis praesentium quae quia, tempora veniam
+            voluptas!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid architecto atque autem corporis
+            est illum in, laboriosam laborum minima nihil odio optio, perspiciatis praesentium quae quia, tempora veniam
+            voluptas!</p>
+    </section>
+</main>
+
+<footer>
+    <h3>Developed By IJSE</h3>
+</footer>
+</body>
+</html>

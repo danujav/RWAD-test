@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Traversing</title>
+    <style>
+        body > section:nth-child(2) > article > div:nth-child(2) > ul > li:nth-child(3) {
+            color: red;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+<section></section>
+<section>
+    <article>
+        <div></div>
+        <div>
+            <p>hello there</p>
+            <p>hello there</p>
+            <ul>
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+                <li>E</li>
+            </ul>
+            <p>hello there</p>
+        </div>
+        <div></div>
+    </article>
+</section>
+<section>
+    <article></article>
+</section>
+<section>
+    <div>
+        <ul>
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+            <li>E</li>
+        </ul>
+    </div>
+</section>
+</body>
+</html>

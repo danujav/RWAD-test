@@ -1,0 +1,39 @@
+<!--/**
+* @author : Sanu Vithanage
+* @since : 0.0.1
+**/-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Transition</title>
+    <link href="assests/css/normalize.css" rel="stylesheet">
+    <style>
+        div {
+            width: 300px;
+            height: 200px;
+            background: red;
+            transition-property: all;
+            transition-duration: 2s;
+
+        }
+
+        div:hover {
+            width: 600px;
+            height: 400px;
+            background: green;
+            /*transition-property: width,height;*/
+            transition-property: all;
+            transition-duration: 2s;
+            transition-delay: 2s;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+
+</div>
+
+</body>
+</html>

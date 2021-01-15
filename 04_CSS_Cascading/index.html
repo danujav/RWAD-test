@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Cascading</title>
+    <style>
+        * {
+            color: chartreuse;
+        }
+
+        [id] {
+            color: blue;
+        }
+
+        h1 {
+            color: red;
+        }
+
+        #idselect {
+            color: green;
+        }
+
+        :first-child {
+            color: deeppink;
+        }
+
+        .classselect {
+            color: orange;
+        }
+
+        /*first out put*/
+        /*     element.style {
+                 !* color: crimson; *!
+             }
+             #idselect {
+                 color: green;
+             }
+             [id] {
+                 color: blue;
+             }
+             :first-child {
+                 color: deeppink;
+             }
+             .classselect {
+                 color: orange;
+             }
+             h1 {
+                 color: red;
+             }
+             * {
+                 color: chartreuse;
+             }
+             */
+
+        /*2nd*/
+        /*element.style {*/
+        /*    color: crimson;*/
+        /*}*/
+        /*#idselect {*/
+        /*    color: green;*/
+        /*}*/
+        /*.classselect {*/
+        /*    color: orange;*/
+        /*}*/
+        /*:first-child {*/
+        /*    color: deeppink;*/
+        /*}*/
+        /*[id] {*/
+        /*    color: blue;*/
+        /*}*/
+        /*h1 {*/
+        /*    color: red;*/
+        /*}*/
+        /** {*/
+        /*    color: chartreuse;*/
+        /*}*/
+
+    </style>
+</head>
+<body>
+<h1 class="classselect" id="idselect" style="color: crimson">Cascading Style Sheets</h1>
+</body>
+</html>
